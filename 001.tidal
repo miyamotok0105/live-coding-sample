@@ -1,0 +1,11 @@
+d1 $ 
+jux (iter 4) $
+every 4 (chop 16) $
+every 6 (gap 16) $
+stack[
+  sound "bd:3 [sn:1*2] ~ bd:3" |+| gain "1.0",
+  sound "bass ~ bass:3 ~" |+| gain "1.2",
+  sound "[~ cp]*4"|+| gain "0.8" |+| pan rand
+]
+
+d1 silence

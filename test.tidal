@@ -1,0 +1,47 @@
+--d1 $ sound "bd sn"  
+d1 $ sound "bd bd bd bd"
+d2 $ sound "bd bd bd bd"
+
+--d1 $ sound "sinesynth" # note 9 # gain 0.5
+--d1 $ chop "<16 128 32>" $ sound "arpy ~ feel*2 newnotes"
+--d1 $ s "bd(3,8) drum*4"
+
+--d1 $ s "bd hh bd hh"
+
+
+--定期的にバスドラム(bd)の音が反復される
+--d1はSuperDirt、d1〜d9まである
+--d1 $ s "bd"
+
+--d1 (sound "bd")
+
+--バスドラムの音が、クラップ(手拍子)に変わる
+--d1 $ s "cp"
+
+--bdとcpが交互になる
+--d1 $ s "bd cp"
+
+--リズムが2倍になる
+--d1 $ s "bd cp bd cp"
+
+-- ""のスペースがイチショウセツ
+--d1 $ s "bd cp cp cp"
+
+--d1 $ s "cp bd cp cp"
+
+--d1 $ s "cp cp cp cp"
+
+--d2 $ s "hh:2 ~ hh:3 cp"
+
+
+--d1 $ sound "909 ~ bass bass:2"
+
+
+--組み合わせ
+--d1 $ s "bd hh hh"
+--d2 $ s "hh:2 ~ hh:3 cp"
+
+-- 音を止める
+d1 silence
+d2 silence
+

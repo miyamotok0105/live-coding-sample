@@ -1,0 +1,17 @@
+
+d1 $ s "bd bd bd bd"
+
+d2 $ stack[
+  sound "bd:3 [sn:1*2] ~ bd:3",
+  sound "bass ~ bass:3 ~",
+  sound "[~ cp]*4"
+]
+
+d3 $ s "arpy:11"
+
+
+-- 音を止める
+d1 silence
+d2 silence
+d3 silence
+
